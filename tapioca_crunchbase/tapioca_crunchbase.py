@@ -23,7 +23,7 @@ class CrunchbaseClientAdapter(JSONAdapterMixin, TapiocaAdapter):
         return params
 
     def get_iterator_list(self, response_data):
-        return response_data['data']
+        return response_data['data']['items']
 
     def get_iterator_next_request_kwargs(self,
             iterator_request_kwargs, response_data, response):
