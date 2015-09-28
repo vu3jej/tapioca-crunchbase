@@ -10,7 +10,7 @@ pip install tapioca-crunchbase
 from tapioca_crunchbase import Crunchbase
 
 
-api = Crunchbase()
+api = Crunchbase(user_key = 'YOUR_CRUNCHBASE_USER_KEY')
 
 ```
 
