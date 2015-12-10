@@ -16,6 +16,6 @@ api = Crunchbase(user_key = 'YOUR_CRUNCHBASE_USER_KEY')
 
 No more documentation needed.
 
-- Learn how Tapioca works [here](http://tapioca-wrapper.readthedocs.org/en/latest/quickstart/)
+- Learn how Tapioca works [here](http://tapioca-wrapper.readthedocs.org/en/stable/quickstart.html)
 - Explore this package using iPython
 - Have fun!
